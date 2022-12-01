@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#020D2C">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PAY"
+            android:textColor="@color/white"
+            android:textSize="55sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginBottom="80dp">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Price:"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="@color/white"
+                android:layout_weight="1">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="400$"
+                android:textColor="@color/white"
+                android:layout_weight="1"
+                android:textSize="25sp"
+                android:gravity="center">
+
+            </TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Delivery:"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="@color/white"
+                android:layout_weight="1">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="15$"
+                android:textColor="@color/white"
+                android:layout_weight="1"
+                android:textSize="25sp"
+                android:gravity="center">
+
+            </TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Total:"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="@color/white"
+                android:layout_weight="1">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="415$"
+                android:textColor="@color/white"
+                android:layout_weight="1"
+                android:textSize="25sp"
+                android:gravity="center">
+
+            </TextView>
+
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Your name"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/white"
+                android:textSize="20sp">
+
+            </EditText>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="XXXX"
+                android:gravity="center"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/white"
+                android:textSize="20sp"
+                android:layout_weight="1">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/second"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="XXXX"
+                android:gravity="center"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/white"
+                android:textSize="20sp"
+                android:layout_weight="1">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/third"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="XXXX"
+                android:gravity="center"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/white"
+                android:textSize="20sp"
+                android:layout_weight="1">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/fourth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="XXXX"
+                android:gravity="center"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/white"
+                android:textSize="20sp"
+                android:layout_weight="1">
+
+            </EditText>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="35dp">
+
+            <EditText
+                android:id="@+id/month"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:hint="MM"
+                android:textColorHint="@color/white"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/white">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/year"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:hint="YY"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/white"
+                android:textColorHint="@color/white"
+                android:layout_marginRight="210dp">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/cvv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="CVV"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/white"
+                android:textColorHint="@color/white">
+
+            </EditText>
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/pay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PAY"
+            android:textColor="@color/white"
+            android:backgroundTint="#26378A"
+            android:layout_marginTop="70dp">
+
+        </Button>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
